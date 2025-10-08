@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mackinon Ongaya Isanya - ICT Professional</title>
+    
+     Bootstrap CSS 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+     Bootstrap Icons 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+     Google Fonts 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    
+     Custom CSS 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     Added loading screen 
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <p class="loader-text">MO</p>
+        </div>
+    </div>
+
+     
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-icon">M</span>
+                <span class="brand-text">Mackinon.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <a href="#contact" class="btn btn-contact">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+     Redesigned hero section with image on right and decorative elements 
+     Hero Section 
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6 hero-content">
+                    <div class="hello-badge">
+                        <span class="bracket-left">⌈</span>
+                        Hello There!
+                        <span class="bracket-right">⌉</span>
+                    </div>
+                    <h1 class="hero-title">
+                        I'm <span class="highlight">Mackinon Ongaya Isanya</span>,<br>
+                        ICT Professional<br>
+                        Based in Kenya.
+                    </h1>
+                    <p class="hero-description">
+                        I'm an experienced ICT professional with a degree from Strathmore University,
+                        collaborating with various companies and startups to deliver innovative tech solutions.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary-custom">
+                            <span>View My Portfolio</span>
+                            <i class="bi bi-play-fill"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary-custom">
+                            Hire Me
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image-container">
+                        <div class="orange-circle"></div>
+                        <img src="/placeholder.svg?height=600&width=500" alt="Mackinon Ongaya Isanya" class="hero-main-image">
+                        <div class="floating-badge badge-1">UI/UX Designer</div>
+                        <div class="floating-badge badge-2">ICT Professional</div>
+                        <div class="floating-badge badge-3">
+                            <div class="experience-circle">
+                                <span class="exp-number">2</span>
+                                <span class="exp-text">YEARS OF<br>EXPERIENCE</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="scrolling-banner">
+        <div class="banner-content">
+            <span>App Design</span>
+            <span class="star">✦</span>
+            <span>Website Design</span>
+            <span class="star">✦</span>
+            <span>Dashboard</span>
+            <span class="star">✦</span>
+            <span>Wireframe</span>
+            <span class="star">✦</span>
+            <span>App Design</span>
+            <span class="star">✦</span>
+            <span>Website Design</span>
+            <span class="star">✦</span>
+            <span>Dashboard</span>
+            <span class="star">✦</span>
+            <span>Wireframe</span>
+            <span class="star">✦</span>
+        </div>
+    </div>
+
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-header">
+                        <p class="section-subtitle">~ Services</p>
+                        <h2 class="section-title">Services <span class="highlight">I Provide</span></h2>
+                        <a href="#contact" class="btn btn-view-all">
+                            View All Services
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-palette"></i>
+                        </div>
+                        <h3 class="service-title">UI/UX Design</h3>
+                        <p class="service-description">
+                            Creating intuitive and engaging user interfaces with focus on user experience
+                            and modern design principles.
+                        </p>
+                        <a href="#" class="service-link">
+                            Learn more <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-phone"></i>
+                        </div>
+                        <h3 class="service-title">Application Design</h3>
+                        <p class="service-description">
+                            Developing responsive and scalable applications that solve real-world problems
+                            with clean code.
+                        </p>
+                        <a href="#" class="service-link">
+                            Learn more <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-laptop"></i>
+                        </div>
+                        <h3 class="service-title">Website Design</h3>
+                        <p class="service-description">
+                            Building modern, responsive websites that deliver exceptional user experiences
+                            across all devices.
+                        </p>
+                        <a href="#" class="service-link">
+                            Learn more <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding bg-dark-green">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div class="about-image-container">
+                        <div class="orange-circle-about"></div>
+                        <img src="/placeholder.svg?height=500&width=500" alt="Mackinon Ongaya Isanya" class="about-main-image">
+                        <div class="skill-badge badge-ux">UX/UI Design</div>
+                        <div class="skill-badge badge-mobile">Mobile App Design</div>
+                        <div class="skill-badge badge-website">Website Design</div>
+                        <div class="skill-badge badge-system">Design System</div>
+                        <div class="skill-badge badge-prototype">Prototype</div>
+                        <div class="skill-badge badge-wireframe">Wireframe Design</div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="about-content">
+                        <p class="section-subtitle text-orange">~ About Me</p>
+                        <h2 class="section-title-white">Who is <span class="highlight-orange">Mackinon Ongaya Isanya</span>?</h2>
+                        <p class="about-text-white">
+                            I'm an ICT professional with a degree from Strathmore University, one of Kenya's
+                            leading institutions for technology education. My journey in technology has been
+                            driven by curiosity and a passion for creating solutions that make a difference.
+                        </p>
+                        <div class="stats-container">
+                            <div class="stat-item">
+                                <h3 class="stat-number">600+</h3>
+                                <p class="stat-label">Project Completed</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="stat-number">50+</h3>
+                                <p class="stat-label">Industry Covered</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="stat-number">18+</h3>
+                                <p class="stat-label">Years of Experience</p>
+                            </div>
+                        </div>
+                        <div class="about-actions">
+                            <a href="#" class="btn btn-download">
+                                Download CV
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                            <div class="signature">Mackinon Ongaya</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="section-subtitle">~ My Favorite Tools</p>
+                    <h2 class="section-title"><span class="highlight">Exploring the Tools</span><br>Behind My Designs</h2>
+                    <div class="tools-grid mt-5">
+                        <div class="tool-item">
+                            <i class="bi bi-code-slash"></i>
+                            <p>VS Code</p>
+                        </div>
+                        <div class="tool-item">
+                            <i class="bi bi-git"></i>
+                            <p>Git</p>
+                        </div>
+                        <div class="tool-item">
+                            <i class="bi bi-github"></i>
+                            <p>GitHub</p>
+                        </div>
+                        <div class="tool-item">
+                            <i class="bi bi-bootstrap"></i>
+                            <p>Bootstrap</p>
+                        </div>
+                        <div class="tool-item">
+                            <i class="bi bi-filetype-js"></i>
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="tool-item">
+                            <i class="bi bi-filetype-html"></i>
+                            <p>HTML5</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section-padding bg-dark-alt">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="section-title reveal-text">Education</h2>
+                    <div class="section-divider"></div>
+                    <div class="education-card mt-5 scale-in">
+                        <div class="row align-items-center">
+                            <div class="col-md-3">
+                                <div class="year-badge">2020 — 2024</div>
+                            </div>
+                            <div class="col-md-9">
+                                <h3 class="education-title">Bachelor's Degree in ICT</h3>
+                                <h4 class="education-institution">Strathmore University</h4>
+                                <p class="education-description">
+                                    Comprehensive program covering software development, database management, 
+                                    networking, cybersecurity, and information systems. Gained hands-on 
+                                    experience through projects and practical coursework in modern technologies 
+                                    and development methodologies.
+                                </p>
+                                <div class="education-highlights">
+                                    <span class="highlight-badge">Software Development</span>
+                                    <span class="highlight-badge">Database Systems</span>
+                                    <span class="highlight-badge">Web Technologies</span>
+                                    <span class="highlight-badge">Network Security</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="section-title reveal-text">Skills & Technologies</h2>
+                    <div class="section-divider"></div>
+                    <div class="row mt-5">
+                        <div class="col-md-6 mb-4">
+                            <div class="skill-category">
+                                <h4 class="skill-category-title">
+                                    <i class="bi bi-code-slash"></i> Programming Languages
+                                </h4>
+                                <div class="skills-tags">
+                                    <span class="skill-tag">JavaScript</span>
+                                    <span class="skill-tag">Python</span>
+                                    <span class="skill-tag">Java</span>
+                                    <span class="skill-tag">C++</span>
+                                    <span class="skill-tag">PHP</span>
+                                    <span class="skill-tag">SQL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="skill-category">
+                                <h4 class="skill-category-title">
+                                    <i class="bi bi-window-stack"></i> Web Development
+                                </h4>
+                                <div class="skills-tags">
+                                    <span class="skill-tag">HTML5</span>
+                                    <span class="skill-tag">CSS3</span>
+                                    <span class="skill-tag">Bootstrap</span>
+                                    <span class="skill-tag">React</span>
+                                    <span class="skill-tag">Node.js</span>
+                                    <span class="skill-tag">Express</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="skill-category">
+                                <h4 class="skill-category-title">
+                                    <i class="bi bi-database"></i> Database & Backend
+                                </h4>
+                                <div class="skills-tags">
+                                    <span class="skill-tag">MySQL</span>
+                                    <span class="skill-tag">PostgreSQL</span>
+                                    <span class="skill-tag">MongoDB</span>
+                                    <span class="skill-tag">Firebase</span>
+                                    <span class="skill-tag">REST APIs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="skill-category">
+                                <h4 class="skill-category-title">
+                                    <i class="bi bi-tools"></i> Tools & Technologies
+                                </h4>
+                                <div class="skills-tags">
+                                    <span class="skill-tag">Git</span>
+                                    <span class="skill-tag">GitHub</span>
+                                    <span class="skill-tag">VS Code</span>
+                                    <span class="skill-tag">Docker</span>
+                                    <span class="skill-tag">Linux</span>
+                                    <span class="skill-tag">Agile</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section id="projects" class="section-padding bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="section-subtitle">~ My Work</p>
+                    <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 mb-4">
+                    <div class="project-card-new">
+                        <div class="project-image-new">
+                            <img src="/placeholder.svg?height=300&width=500" alt="E-Commerce Platform">
+                        </div>
+                        <div class="project-content-new">
+                            <h3 class="project-title-new">E-Commerce Platform</h3>
+                            <p class="project-description-new">
+                                Full-stack e-commerce solution with user authentication, product management,
+                                shopping cart, and payment integration.
+                            </p>
+                            <div class="project-tags-new">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="project-card-new">
+                        <div class="project-image-new">
+                            <img src="/placeholder.svg?height=300&width=500" alt="Task Management App">
+                        </div>
+                        <div class="project-content-new">
+                            <h3 class="project-title-new">Task Management System</h3>
+                            <p class="project-description-new">
+                                Collaborative task management application with real-time updates and
+                                team collaboration features.
+                            </p>
+                            <div class="project-tags-new">
+                                <span>JavaScript</span>
+                                <span>Firebase</span>
+                                <span>Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="section-subtitle">~ Get In Touch</p>
+                    <h2 class="section-title">Let's Work <span class="highlight">Together</span></h2>
+                    <p class="contact-intro mt-4">
+                        I'm always interested in hearing about new projects and opportunities.
+                        Whether you have a question or just want to say hi, feel free to reach out!
+                    </p>
+                    
+                    <div class="contact-methods mt-5">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="contact-card-new">
+                                    <i class="bi bi-envelope contact-icon-new"></i>
+                                    <h5>Email</h5>
+                                    <a href="mailto:ongayamackinon@gmail.com">ongayamackinon@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="contact-card-new">
+                                    <i class="bi bi-telephone contact-icon-new"></i>
+                                    <h5>Phone</h5>
+                                    <a href="tel:+254799796959">+254 799 796 959</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="contact-card-new">
+                                    <i class="bi bi-geo-alt contact-icon-new"></i>
+                                    <h5>Location</h5>
+                                    <p>Nairobi, Kenya</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links-new mt-5">
+                        <a href="https://www.youtube.com/@MackinonOngaya" target="_blank" class="social-link-new">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61577361315108" target="_blank" class="social-link-new">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/isanyajnr27997/" target="_blank" class="social-link-new">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="footer-new">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="footer-text-new">
+                        &copy; 2025 Mackinon Ongaya Isanya. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
